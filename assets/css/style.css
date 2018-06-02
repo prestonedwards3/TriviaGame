@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    height: 100%;
+ }
+ 
+body {
+    background-image: url("../images/airjordan.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 100%;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: scroll;
+}
+h1{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+#timer{
+    color: whitesmoke;
+    position:absolute;
+    top:40%;
+    text-align: center;
+    margin: auto;
+}
+#gameBoard {
+    width: 900px;
+    height: 200px;
+    background-color: transparent;
+    color: whitesmoke;
+    position:absolute;
+    top:50%;
+    left:17%;
+    text-align: center;
+    margin: auto;
+}
+.answerchoice, .answerchoices, .answerchoices1, .answerchoices2, .answerchoices3,
+.answerchoices4, .answerchoices5, .answerchoices6, .answerchoices7, .answerchoices8 {
+    color: black;
+}
