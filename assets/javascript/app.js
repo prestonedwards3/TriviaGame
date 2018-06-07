@@ -268,26 +268,26 @@ var questionArray = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10];
 
 function question1correct(){
     $(".question").text("Correct!")
-    $(".answerchoice").html("<img src='../images/hardenonfire.jpg' id='bigHarden'>")
+    $(".answerchoice").html("<img src='./assets/images/hardenonfire.jpg' id='bigHarden'>")
 	$("#bigHarden").css({height: "500px", width: "300px"})
 	audioElement.play()
 	correctAnswers++;
 }
 function question1wrong(){
     $(".question").text("Thats wrong! The correct answer is James Harden!");
-    $(".answerchoice").html("<img src='../images/hardenonfire.jpg' id='bigHarden'>");
+    $(".answerchoice").html("<img src='./assets/images/hardenonfire.jpg' id='bigHarden'>");
 	$("#bigHarden").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
 function question2correct(){
     $(".question").text("Correct!")
-    $(".answerchoices").html("<img src='../images/kingjordan.jpg' id='mikeJordan'>")
+    $(".answerchoices").html("<img src='./assets/images/kingjordan.jpg' id='mikeJordan'>")
 	$("#mikejordan").css({height: "500px", width: "300px"})
 	correctAnswers++;
 }
 function question2wrong(){
     $(".question").text("Thats wrong! The correct answer is Michael Jordan!");
-    $(".answerchoices").html("<img src='../images/kingjordan.jpg' id='mikeJordan'>");
+    $(".answerchoices").html("<img src='./assets/images/kingjordan.jpg' id='mikeJordan'>");
 	$("#mikejordan").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
@@ -299,91 +299,91 @@ function question3correct(){
 }
 function question3wrong(){
     $(".question").text("Thats wrong! The correct answer is Allen Iverson!");
-    $(".answerchoices1").html("<img src='../images/iverson.jpg' id='iverson'>");
+    $(".answerchoices1").html("<img src='./assets/images/iverson.jpg' id='iverson'>");
 	$("#iverson").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
 function question4correct(){
     $(".question").text("Correct!")
-    $(".answerchoices2").html("<img src='../images/durant.jpg' id='durant'>")
+    $(".answerchoices2").html("<img src='./assets/images/durant.jpg' id='durant'>")
 	$("#durant").css({height: "500px", width: "300px"})
 	correctAnswers++;
 }
 function question4wrong(){
     $(".question").text("Thats wrong! The correct answer is Kevin Durant!");
-    $(".answerchoices2").html("<img src='../images/durant.jpg' id='durant'>");
+    $(".answerchoices2").html("<img src='./assets/images/durant.jpg' id='durant'>");
 	$("#durant").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
 function question5correct(){
     $(".question").text("Correct!")
-    $(".answerchoices3").html("<img src='../images/russ.jpg' id='russ'>")
+    $(".answerchoices3").html("<img src='./assets/images/russ.jpg' id='russ'>")
 	$("#russ").css({height: "500px", width: "300px"})
 	correctAnswers++;
 }
 function question5wrong(){
     $(".question").text("Thats wrong! The correct answer is Russel Westbrook!");
-    $(".answerchoices3").html("<img src='../images/russ.jpg' id='russ'>");
+    $(".answerchoices3").html("<img src='./assets/images/russ.jpg' id='russ'>");
 	$("#russ").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
 function question6correct(){
     $(".question").text("Correct!")
-    $(".answerchoices4").html("<img src='../images/vince.jpg' id='vince'>")
+    $(".answerchoices4").html("<img src='./assets/images/vince.jpg' id='vince'>")
 	$("#vince").css({height: "500px", width: "300px"})
 	correctAnswers++;
 }
 function question6wrong(){
     $(".question").text("Thats wrong! The correct answer is Vince Carter!");
-    $(".answerchoices4").html("<img src='../images/vince.jpg' id='vince'>");
+    $(".answerchoices4").html("<img src='./assets/images/vince.jpg' id='vince'>");
 	$("#vince").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
 function question7correct(){
     $(".question").text("Correct!")
-    $(".answerchoices5").html("<img src='../images/kingjames.jpg' id='lebron'>")
+    $(".answerchoices5").html("<img src='./assets/images/kingjames.jpg' id='lebron'>")
 	$("#lebron").css({height: "500px", width: "300px"})
 	correctAnswers++;
 }
 function question7wrong(){
     $(".question").text("Thats wrong! The correct answer is Lebron James!");
-    $(".answerchoices5").html("<img src='../images/kingjames.jpg' id='lebron'>");
+    $(".answerchoices5").html("<img src='./assets/images/kingjames.jpg' id='lebron'>");
 	$("#lebron").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
 function question8correct(){
     $(".question").text("Correct!")
-    $(".answerchoices6").html("<img src='../images/giannis.jpg' id='giannis'>")
+    $(".answerchoices6").html("<img src='./assets/images/giannis.jpg' id='giannis'>")
 	$("#giannis").css({height: "500px", width: "300px"})
 	correctAnswers++;
 }
 function question8wrong(){
     $(".question").text("Thats wrong! The correct answer is Giannis Antekoumnpo!");
-    $(".answerchoices6").html("<img src='../images/giannis.jpg' id='giannis'>");
+    $(".answerchoices6").html("<img src='./assets/images/giannis.jpg' id='giannis'>");
 	$("#giannis").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
 function question9correct(){
     $(".question").text("Correct!")
-    $(".answerchoices7").html("<img src='../images/kobe.jpg' id='kobe'>")
+    $(".answerchoices7").html("<img src='./assets/images/kobe.jpg' id='kobe'>")
 	$("#kobe").css({height: "500px", width: "300px"})
 	correctAnswers++;
 }
 function question9wrong(){
     $(".question").text("Thats wrong! The correct answer is Kobe Bean Bryant!");
-    $(".answerchoices7").html("<img src='../images/kobe.jpg' id='kobe'>");
+    $(".answerchoices7").html("<img src='./assets/images/kobe.jpg' id='kobe'>");
 	$("#kobe").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
 function question10correct(){
     $(".question").text("Correct!")
-    $(".answerchoices8").html("<img src='../images/kyrie.jpg' id='kyrie'>")
+    $(".answerchoices8").html("<img src='./assets/images/kyrie.jpg' id='kyrie'>")
 	$("#kyrie").css({height: "500px", width: "300px"})
 	correctAnswers++;
 }
 function question10wrong(){
     $(".question").text("Thats wrong! The correct answer is Kyrie Irving!");
-    $(".answerchoices8").html("<img src='../images/kyrie.jpg' id='kyrie'>");
+    $(".answerchoices8").html("<img src='./assets/images/kyrie.jpg' id='kyrie'>");
 	$("#kyrie").css({height: "500px", width: "300px"});
 	wrongAnswers++;
 }
